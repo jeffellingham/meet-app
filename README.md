@@ -2,6 +2,9 @@
 
 This Meet app is a serverless progressive web app built with Create-React-App and Amazon Web Services that allows users to find events in a city near them.
 
+## Serverless Functions:
+This app will use serverless functions by authorizing the client-side app to connect to Google's Calendar API and receive event data. Any time the user triggers an event that requires connecting to the API, the app will utilize serverless functions facilitated by AWS Lambda to receive the requested data. Such an event could be as simple as filtering the list of events.
+
 ## Features and Scenarios
 
 User stories for each feature and each test case scenario described using Gherkin's "given-when-then" syntax.
